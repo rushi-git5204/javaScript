@@ -1,0 +1,30 @@
+let number = 10
+
+
+console.log(typeof number)
+
+let valueInNumber = Number(number)
+console.log( valueInNumber)
+console.log(typeof valueInNumber)
+
+//output:-
+// "10" => 10
+// "10abc" => NaN
+// "" => 0
+// true => 1 / false => 0
+
+
+
+let lonIn = "11"
+
+let checkIslogIn = Boolean(lonIn)
+console.log(checkIslogIn)
+//output:-
+// 1 => true / 0 => false
+// "" => false / "11" => true
+
+
+let stringNumber = String(number)
+
+console.log(typeof stringNumber)
+console.log(stringNumber)
